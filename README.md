@@ -28,7 +28,9 @@ Ele permite que clientes realizem compras e que administradores façam a gestão
 
 Os produtos são armazenados em um dicionário:
 
+
 lojaBrinquedos = {
+
     'Brinquedos': ['Carrinho de Controle Remoto', 'Boneca', 'Lego Star Wars', 'Urso de Pelúcia'],
 
     'Preço': [199.90, 89.99, 450.00, 120.00],
@@ -42,7 +44,9 @@ lojaBrinquedos = {
 
 E o carrinho segue este formato:
 
+
 carrinho = {
+
     'Endereço': {
     
         'Rua': '',
