@@ -30,9 +30,13 @@ Os produtos são armazenados em um dicionário:
 
 lojaBrinquedos = {
     'Brinquedos': ['Carrinho de Controle Remoto', 'Boneca', 'Lego Star Wars', 'Urso de Pelúcia'],
+
     'Preço': [199.90, 89.99, 450.00, 120.00],
+    
     'Idade Recomendada': [['6+', '8+'], ['3+', '5+'], ['8+', '10+'], ['3+', '5+']],
+    
     'Cor': [['Vermelho', 'Azul'], ['Rosa', 'Azul'], ['Multicolorido'], ['Marrom', 'Bege']],
+    
     'Estoque': [50, 120, 30, 200]
 }
 
@@ -40,12 +44,17 @@ E o carrinho segue este formato:
 
 carrinho = {
     'Endereço': {
+    
         'Rua': '',
+        
         'Bairro': '',
+        
         'Nº': '',
+        
         'CEP': ''
     },
     'Itens': {},
+    
     'Valor Total': 0
 }
 
